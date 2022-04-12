@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+	<title>Puncionadeira</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	<link rel="stylesheet" type="text/css" href="./css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="./css/main.css" />
+	<link rel="stylesheet" type="text/css" href="./css/texto.css" />
+	<link rel="stylesheet" type="text/css" href="./css/tes.css" />
+
+	<link href="./css/bootstrap.css" rel="stylesheet"
+		usintegrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymo">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a class="logo" href="/"><b>Punch</b> Tools</a>
+			<div class="mobile-menu">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<ul class="nav-list ">
+				<li><a href="#home">início</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#ferramentas">Portfólio</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="home" class="col-100">
+		<div class="slider-principal">
+			<div>
+				<img src="./img/puncionadeira.png" width="100%" />
+			</div>
+			<div>
+				<img src="./img/puncoes.png" width="100%" />
+			</div>
+			<div>
+				<img src="./img/ferramentas.png" width="100%" />
+			</div>
+			<div>
+				<img src="./img/multitools.png" width="100%" />
+			</div>
+		</div>
+	</div>
+	<div class="col-101">
+		<div id="sobre" class="sobre">
+			<h1><b>Sobre</b> a máquina puncionadeira</h1>
+			<p>A máquina puncionadeira realiza o processo de corte de peças através de punções, esses equipamentos
+				industriais veio antes do lasers. porem não trabalha só com o corte de chapas, com a ferramenta
+				certa ela também pode fazer os repuxos que são um tipo de resalto feito na peças.</p>
+		</div>
+	</div>
+	<div class="col-101 ">
+		<div class="sobre">
+			<h1><b>Ferramentas</b> utilizadas pela Puncionadeira</h1>
+			<p>Uma ferramenta de puncionadeira requer um conjunto de punção e matriz, existem duas torres
+				correspondentes,
+				acima e abaixo da mesa, para punção e matriz. Essas duas torres devem giram em sincronização precisa e
+				com
+				seu alinhamento cuidadosamente mantido. Normalmente vários formatos de forma idêntica podem ser usados
+				​​na torre,
+				cada um girado em um ângulo diferente, pois geralmente não há recurso para girar a peça de trabalho na
+				chapa em
+				relação à ferramenta. Porém as puncionadeiras mais modernas possuem algumas estações que permitem girar
+				as
+				ferramentas 360 graus em seu próprio eixo, chamamos estas estações de auto-index.
+			</p>
+		</div>
+		<div id="ferramentas" class="ferramentas">
+			<h1><b>Portifólio</b></h1>
+		</div>
+		<div class="col-3 bloco-texto">
+			<img src="./img/multitools2.png" width="100%" />
+			<h3>Multitools</h3>
+			<p>O multitools serve comportar os punções, o tipo de multitools ira definir a quantidade como por
+				exemplo
+				o mtx6 que pode usado até seis punções.
+			</p>
+		</div>
+		<div class="col-3 bloco-texto">
+			<img src="./img/PeM.png" width="100%" />
+			<h3>Punções e matrizes</h3>
+			<p>Punções e matrizes sempre trabalha em conjunto e sincronia, independente se é um punção para o multitools
+				ou para o mono punção.
+			</p>
+		</div>
+		<div class="col-3 bloco-texto">
+			<img src="./img/mono.png" width="100%" />
+			<h3>Mono punção</h3>
+			<p>Diferente do multitools o mono punção é apenas uma unica ferramenta, trabalhando da mesma de um punção e
+				matriz convencional.
+			</p>
+		</div>
+	</div>
+	</div>
+	<fieldset>
+		<fieldset class="grupo">
+			<div id="contato" class="campo">
+				<h3>Contato</h3>
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" name="nome" style="width: 10em" value="" />
+			</div>
+			<div class="campo">
+				<label for="email">E-mail</label>
+				<input type="text" id="email" name="email" style="width: 20em" value="" />
+			</div>
+			<div class="campo">
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone" name="telefone" style="width: 20em" value="" />
+			</div>
+			<div class="campo">
+				<label for="asunto">Assunto</label>
+				<input type="text" id="assunto" name="assunto" style="width: 20em" value="" />
+			</div>
+			<div class="campo">
+				<label for="mensagem">Mensagem</label>
+				<textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+			</div>
+			<button name="botao" type="submit" id="botao" class="botao">Enviar</button>
+		</fieldset>
+		<main></main>
+		<script src="./js/nav.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script type="text/javascript" src="./js/main.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+			integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+			integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+			crossorigin="anonymous"></script>
+</body>
+
+</html>

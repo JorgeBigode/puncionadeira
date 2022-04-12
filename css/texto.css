@@ -1,0 +1,85 @@
+body {
+    overflow-x: hidden;
+}
+
+.ferramentas,
+.sobre {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.bloco-texto {
+    margin-left: 17%;
+    text-align: center;
+
+}
+
+.bloco-texto b {
+    color: #252323
+}
+
+.bloco-texto h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #57585a;
+}
+
+.bloco-texto p {
+    font-size: 15px;
+}
+
+.ferramentas {
+    text-align: justify;
+    margin: auto;
+    padding: 0;
+}
+
+.ferramentas h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #57585a;
+}
+
+.ferramentas b {
+    color: #252323
+}
+
+
+.col-3 {
+    text-align: justify;
+    width: 10%;
+    float: left;
+    position: relative;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+.sobre {
+    text-align: justify;
+    margin-top: 28px;
+    padding: 0;
+    position: relative;
+}
+
+.sobre h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #57585a;
+}
+
+.sobre b {
+    color: #252323
+}
+
+@media (max-width: 999px) {
+
+    .sobre,
+    .col-3 {
+        margin-left: 1;
+        width: 95%;
+    }
+
+}
